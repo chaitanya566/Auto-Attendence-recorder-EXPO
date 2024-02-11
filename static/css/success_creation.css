@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* padding: 40px 0; */
+  background: #ebf0f5;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: montserrat, sans-serif
+}
+
+h1 {
+  color: #88b04b;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #404f5e;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+i {
+  color: #9abc66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left: -15px;
+}
+
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #c8d0d8;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+#confetti-holder {
+  position: fixed;
+  height: 100vh;
+  pointer-events: none;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#e0DQ82qcIov1 {
+  height: 150vh;
+  min-width: 600px;
+  min-height: 600px;
+}
+
+.center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #fff8f5;
+  align-items: center;
+  justify-content: center;
+}
+
+#shooter {
+  font-weight: 500;
+  padding: 16px 32px;
+  min-width: 200px;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  color: rgba(250, 250, 255, 0.9);
+  background-color: #e64784;
+  border: none;
+  border-radius: 48px;
+  box-shadow: 0 4px 8px #f2b3c8;
+  -webkit-tap-highlight-color: transparent;
+  transition: box-shadow 0.1s ease-out;
+}
+
+#shooter:hover {
+  background-color: #f74d8d;
+  color: rgba(250, 250, 255, 1);
+  box-shadow: 0 8px 16px #f6ceda;
+}
+
+#shooter:active {
+  box-shadow: 0 0 8px #f6ceda;
+  transform: translateY(4px);
+  color: #fff;
+}
+
+span.shoot {
+  font-size: 28px;
+  text-align: center;
+  pointer-events: none;
+}
+
+#love {
+  position: fixed;
+  color: rgba(10, 0, 15, 0.48);
+  bottom: 1rem;
+  -webkit-tap-highlight-color: transparent;
+  font-size: 1.2vw;
+}
+
+#svgator {
+  color: rgba(100, 90, 210, 0.8);
+}
+
+#svgator:hover {
+  color: rgba(100, 90, 230, 1);
+}
+
+a:visited {
+  color: rgba(100, 90, 210, 1);
+}
