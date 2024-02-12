@@ -31,3 +31,7 @@ the other files in the scripts
     -Connect-Client-with-Server.py
     -Connect-Server-with-Client.py
 can change depening on the type of data transmition your going forward for the final product so not much to be done there
+
+we can integrate amazon rekognition to detect if the face is real or not (not done yet)
+
+and we are currently using a temporary method to send information to the student that their attendence is marked
