@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Video Quality Check</title>
-    <link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" href="../static/css/Camera_input.css">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
 <body>
-    <div class="camera" width="640" height="480">
-    <video id="video" width="640" height="480" autoplay></video>
-    <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+    <div class="container">
+        <div class="camera" width="640" height="480">
+            <video id="video" width="640" height="480" autoplay></video>
+            <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+        </div>
+        <div class="video-footage-details">Requesting Camera Access</div>
     </div>
-    <div class="video-footage-details">Requesting Camera Access</div>
 
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-
-<script src="../static/js/main1.js"></script>
+    <div class="other-content">
+        <h2>SRM INTEGRATED APPLICATION FOR AUTOMATED ATTENDENCE</h2>
+        <p>Check your live video quality instantly with our innovative tool. Ensure your camera is functioning optimally for the best video experience.</p>
+    </div>
+    <script src="../static/js/Camera_input.js"></script>
 </body>
-
 </html>

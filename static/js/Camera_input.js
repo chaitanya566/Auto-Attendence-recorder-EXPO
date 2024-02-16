@@ -93,7 +93,7 @@ function FrameIsBlurryChangeDetails() {
 
 function FrameHasHighLightingChangeDetails() {
   //vid with high lighting
-  videoFootageDetails.style.color = "yellow";
+  videoFootageDetails.style.color = "#ff9900";
   videoFootageDetails.textContent =
     "Camera has high lighting in the background";
 }

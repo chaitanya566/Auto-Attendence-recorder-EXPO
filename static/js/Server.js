@@ -64,6 +64,7 @@ function GetCurrentUserFace(){
           .withFaceDescriptor();
         descriptions.push(detections.descriptor);
       }
+      console.log("images recived and started processing! ")
       return detections; //returns the ai data along with the name of the person (which is the name of the folder)
     })
   );
@@ -107,6 +108,7 @@ async function StartFunctioning() {
       // or 'PC' based on your condition
     } // or 'PC' based on your condition
   });
+  console.log("Identified Users : ")
   console.log(TempFaceNamesArray)
   updateArrayItems()
 
@@ -126,6 +128,7 @@ labels.forEach(item => {
   li.classList.add('array-item', 'red');
   li.textContent = item;
   const button = document.createElement('button');
+  button.classList.add('attendance-button'); 
   button.textContent = 'Give Attendence';
   button.addEventListener('click', () => {
     if (!TempFaceNamesArray.includes(item)) {
