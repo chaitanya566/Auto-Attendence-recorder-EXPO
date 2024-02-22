@@ -17,7 +17,7 @@ This project implements a real-time facial recognition attendance system. The sy
 ##  Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/chaitanya566/Real-time-Facial-Recognition-Attendance-System.git
+   git clone https://github.com/chaitanya566/Auto-Attendance-recorder
     ```
 2. **Navigate to the project directory:**
     ```bash
