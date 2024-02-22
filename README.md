@@ -16,6 +16,9 @@ This project implements a real-time facial recognition attendance system. The sy
 - AI Model: [Face-API](https://github.com/justadudewhohacks/face-api.js)
 ##  Installation
 1. **Clone the repository:**
+ ```bash
+   git clone https://github.com/chaitanya566/Auto-Attendence-recorder.git
+    ```
 2. **Navigate to the project directory:**
     ```bash
     cd Auto-Attendence-recorder
