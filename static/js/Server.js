@@ -9,8 +9,7 @@ const RealTimeFaceNames = [];
 
 //add your name here (i know i should make this automatic but that would either need node or gotta use another python script with flask to get the details so pardon me for now)
 
-
-var labels = ["Chaitanya_Saradhi_Eerla","Arun Krishnan"];
+var labels = ["Chaitanya Saradhi Eerla","Rishi Gupta","Sayantan Roy","Krish Mehta","Aadtiya Jha","Saksham Lamba"];
 
 
 //-------------------------------------------------------------------------
@@ -33,7 +32,7 @@ function CreateAiDatafromStoredImages() {
       const descriptions = [];
       for (let i = 1; i <= 1; i++) {
         const img = await faceapi.fetchImage(
-          `../../data/Section_Name/images/${label}/image${i}.jpg`
+          `../../data/Section_Name/dataset images/${label}/image${i}.jpg`
         );
         const detections = await faceapi // converts the images into ai data
           .detectSingleFace(img)
@@ -54,7 +53,7 @@ function GetCurrentUserFace(){
     [1].map(async () => { // Using [1] just for a single iteration
       const descriptions = [];
       let detections = null; // Initialize detections outside the loop
-      for (let i = 1; i <= 10; i++) {
+      for (let i = 1; i <= 1; i++) {
         const img = await faceapi.fetchImage(
           `../../data/Section_Name/current_user/image${i}.jpg`
         );
