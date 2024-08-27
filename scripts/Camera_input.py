@@ -17,7 +17,7 @@ CORS(app)  # Enable CORS for all routes in the Flask app
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # setting the route and stuff
-relative_upload_path = os.path.join('..', 'data', 'Section_Name', 'current_user')
+relative_upload_path = os.path.join('..', 'data', 'Section_Name', 'device1')
 absolute_upload_dir = os.path.join(current_dir, relative_upload_path)
 os.makedirs(absolute_upload_dir, exist_ok=True)
 image_count = 0
@@ -44,9 +44,9 @@ def upload_file():
         # Increment image count
         image_count += 1
         
-        if image_count >= 10:
+        if image_count >= 5:
             # process_images()
-            print("Reached 10 images")
+            print("Reached 5 images")
             image_count = 0
             # Reset image count after processing
         
