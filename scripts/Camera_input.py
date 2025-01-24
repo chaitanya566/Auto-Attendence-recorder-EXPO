@@ -44,9 +44,9 @@ def upload_file():
         # Increment image count
         image_count += 1
         
-        if image_count >= 10:
+        if image_count >= 5:
             # process_images()
-            print("Reached 10 images")
+            print("Reached 5 images")
             image_count = 0
             # Reset image count after processing
         
