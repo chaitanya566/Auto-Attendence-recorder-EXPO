@@ -17,7 +17,7 @@ CORS(app)  # Enable CORS for all routes in the Flask app
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 # setting the route and stuff
-relative_upload_path = os.path.join('..', 'data', 'Section_Name', 'current_user')
+relative_upload_path = os.path.join('..', 'data', 'Section_Name', 'device1')
 absolute_upload_dir = os.path.join(current_dir, relative_upload_path)
 os.makedirs(absolute_upload_dir, exist_ok=True)
 image_count = 0

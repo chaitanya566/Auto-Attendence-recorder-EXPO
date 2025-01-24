@@ -1,0 +1,4 @@
+# Ignoring the minified face-api file to avoid committing large files
+face-api.min.js
+
+# Add other related files if necessary
